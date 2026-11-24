@@ -1,8 +1,8 @@
 # Tuesday 24 November 2026 in one page — 39 stories, 9 regions
 
-[![make.fun](https://make.fun/api/badges/news-image-20261124/submissions)](https://make.fun/bounty/news-image-20261124)
-[![make.fun](https://make.fun/api/badges/news-image-20261124/prize)](https://make.fun/bounty/news-image-20261124)
-[![make.fun](https://make.fun/api/badges/news-image-20261124/leaderboard)](https://make.fun/bounty/news-image-20261124)
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![rank](https://make.fun/badge/news-image-20261124/oxizbinance-aox/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![reward](https://make.fun/badge/news-image-20261124/oxizbinance-aox/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
 Sum up Tuesday 24 November 2026's world news in one image — **39 stories,
 9 regions**: 3 lead stories with hand-drawn pictograms, 8 illustrated mid
