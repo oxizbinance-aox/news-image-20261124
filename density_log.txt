@@ -1,90 +1,67 @@
 {
- "ocr_words": 633,
- "story_numbers_found": [
-  4,
-  5,
-  6,
-  7,
-  9,
-  10,
-  12,
-  14,
-  16,
-  17,
-  20,
-  21,
-  22,
-  23,
-  24,
-  26,
-  28,
-  36,
-  39
- ],
- "story_numbers_count": 19,
- "headline_keyword_matched": [
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  9,
-  10,
-  11,
-  12,
-  13,
-  14,
-  15,
-  16,
-  17,
-  18,
-  19,
-  20,
-  21,
-  22,
-  23,
-  24,
-  25,
-  26,
-  27,
-  28,
-  29,
-  30,
-  31,
-  32,
-  33,
-  34,
-  35,
-  36,
-  37,
-  38,
-  39
- ],
- "headline_keyword_count": 39,
- "regions_found": [
-  "NORTH AMERICA",
-  "EUROPE",
-  "LATIN AMERICA",
-  "MIDDLE EAST",
-  "AFRICA",
-  "ASIA-PACIFIC",
-  "SOUTH ASIA",
-  "OCEANIA",
-  "GLOBAL"
- ],
- "regions_count": 9,
- "charts_found": [
-  "FRIDAY",
-  "TREMORS"
- ],
- "map_present": true,
- "data_strip_numbers_found": [
-  "36.6",
-  "3,000"
- ],
- "ink_coverage": 0.142
+  "stories_found": 39,
+  "stories_missing": [],
+  "regions_found": 9,
+  "regions_missing": [],
+  "charts_found": 2,
+  "map_present": true,
+  "data_strip_numbers": [
+    "36.6",
+    "6.5",
+    "3,000+"
+  ],
+  "ocr_words": 576,
+  "ink_coverage": 0.128
 }
-DENSITY GATE: PASS
+---- OCR (first 4000 chars) ----
+TUESDAY 24 NOVEMBER 2026 39 STORIES - 9 REGIONS
++36.6% 6.5 3,000+ 12
+NVIGIA SURGES AS HUANG RETURNS VANUATU QUAKE — No TSUNAMI Seda FuGHTS HiT By ouTAGE CFIMESE WARSHIPS OFF TAIWAN
+NORTH AMERICA EUROPE [ASIA-PACIFIC
+MARKETS UKRAINE TAIWAN
+Huang is back, 4 Odesa dark and 12 Chinese
+Nvidia soars cold after Russian warships circle
+36.6%. ne strikes. Taiwan.
+Board reinstates Huang as chief executive; Strikes knock out power, heat and water Drones and helicopters enter the island's
+Wall Street rebounds as the Al rout reverses. across the Black Sea port city. airdefence zone as Taipei tracks the flotilla.
+NORTH AMERICA EUROPE MIDDLE EAST ASIA-PACIFIC
+Delta outage grounds Ukraine drones set two Houthis say they hit Seoul names new
+&@ 3,000+ us flights ir Russian refineries Saudi Arabia's Rabigh ttt foreign minister and
+—_— ablaze refinery spy chief
+mauoyses Gopal live Gopal live mautoys.eu
+AFRICA ‘cLoaat LATIN AMERICA ‘OCEANIA
+24 dead as boat + =, Beaver Supermoon 16 cartel suspects $f Hobart stadium bill
+wey capsizes on way toa ® rises tonight, first of g killed in ‘El Chapo jumps to $1.23 billion
+wey Nigeria funeral : four Isidro! arrest ——
+mauoyses Sly 3 Nghe m.sutyseu Go Harald Now
+THE WORLD TODAY — 10 HOTSPOTS FRIDAY'S FALLS — 20 NOV
+Taiwan «67°.
+Sco TT 5.2%
+° Nikkel «50°,
+oe Shanghai NN -2.1%
+©
+oT oY? ASK ME «1.6%
+q ‘TREMORS — LAST 24H, MAGNITUDE
+PS od ot TT 6.5
+Trost TT 5.2
+o- Urumai I
+1Odesa 2Teiwan 3.tlanta 4 Perm 5Rabigh 6 Nigeria 7Sinaloa 8 Hobart 9Seoul 10 Vanuatu Kuga a 2.9
+Palau SS
+THE REST OF THE DAY — 28 MORE STORIES Bitung _———____k
+12. Armenia drops Karabakh claim in draft constitution 26. Storm forces thousands to flee in Brazil
+13. Cyprus expels two Russian diplomats over spying claims 27. Gaza's soil and water poisoned by war, report finds
+14. Estonia answers Russia's airspace allegation firmly 28. France condemns settler attacks on Palestinians
+15. Bomb threats close schools in Germany and Denmark 29. Lebanon condemns Israeli officer's school visit
+16. Merz: keeping Ukraine out of NATO in 2008 was wrong 30. Trump faces pivotal decision on Iran deal
+17. Uk starts world's largest Al breast-screening trial 311. Eastern Libya appeals to UN over Russian warship
+18. NATO offers Poland ‘significant backing’ after incursion 32. Fighting traps Ebola responders in Ituri
+19. Russian casualties outpace monthly recruiting, US says 33. Seoul denies navy unit is bound for Iran war
+20. Two killed as helicopter crashes near Napa wineries 34. Taiwan eases margin rules from today after rout
+21. US states sue SpaceX over Grok's sexual images 35. South Korea tracks North Korean ship off its coast
+22. Army invokes emergency powers for lowa munitions blast 36. Taliban erases women's names from Balkh documents
+23. US to host the 2031 Women's World Cup, FIFA says 37. Australia budget update as rents hit 14-year low
+24. Schumer warns of security risks in Huang's return 38. UN chief urges global Al safety rules within a year
+25. Panama and First Quantum resume Cobre mine talks 39. China's nuclear build-up ‘turning world dangerous’, expert wams
+REGIONS COVERED: North America - Europe - Asia-Pacific - Latin America - Middle East - Africa - South Asia - Oceania - Global
+DATE CHECK — all 39 stories dated Tue 24 Nov 2026. Sources: Go Herald Now - mautoys.eu- Geopoltkilive - Disclosure News » Sky at Night The Sun Report: Liveuamap -The Ledger Asia
+

@@ -11,10 +11,16 @@ and a numbered list of the remaining 28 stories. Every story is dated
 24 November 2026.
 
 - Bounty: https://make.fun/bounty/news-image-20261124
-- Entry image: `entry.png` — 1024×1024, 188,918 bytes
-- sha256: `f9fcd2b6c993be3dfc55e8629b181d5813738c2954275e208f34783bd1ec4d33`
+- Entry image: `entry.png` — 1024×1024, 171,857 bytes
+- sha256: `1312845031e763df3f7c1f78c49398c4bb703d822f16b61bbda256abdecfec93`
 - Deterministic: two runs of `draw_news24.py` and two runs of `main.ts`
   write byte-identical `entry.png` (sha256 above).
+- **v2 rebuild note:** this entry was rebuilt fresh in a session that
+  started after the competition opened (00:00 UTC 24 Nov 2026). The
+  earlier v1 build started 4 minutes before opening and cannot be
+  entered (`thinking_in_window`); no v1 source was read or copied —
+  `main.ts` and `draw_news24.py` here were written fresh from this
+  design in the new session.
 
 ## How it runs
 
@@ -24,28 +30,26 @@ MAKEFUN_OUTPUT_DIR=out node main.ts   # copies entry.png to out/entry.png
 ```
 
 `main.ts` (Node 22, stdlib only) resolves `entry.png` relative to itself
-via `import.meta.url` and verifies the copy byte-for-byte (sha256 + PNG
-magic bytes). No network at run time.
+via `import.meta.url` and verifies the copy byte-for-byte (SHA-256, PNG
+magic bytes, and 1024×1024 IHDR dimensions). No network at run time.
 
 ## QC gates (all logged in the repo)
 
 - **Density counter** (`density_check.py`, tesseract OCR on the rendered
   image): 39/39 headline keywords found, 9/9 regions, 2 charts, map
-  present, data-strip numbers present, 568 OCR words, ink coverage 0.142.
-- **Layout validator** (in `draw_news24.py`, PIL ink bounding boxes):
-  243 text boxes, 0 out-of-bounds, 0 overlaps, 0 headline overflows.
-- **Self-judge vs NI20 top-3** (superskie 0.872, thunder-rain 0.869,
-  brothermus 0.857): density 39 vs 33/44/32; breadth 9 regions vs 7/8/6;
-  11 illustrated panels (3 leads + 8 mids) with verification tags
-  (REPORTED / CLAIM) and a DATE CHECK box — matches the winners'
-  structure (leads + illustrated mids + map + numbered list + date check).
+  present, data-strip numbers present, 576 OCR words, ink coverage 0.128.
+- **Layout validator** (built into `draw_news24.py`, PIL text bounding
+  boxes): 167 text boxes, 0 out-of-bounds, 0 overlaps.
+- **Zoom QC:** viewed at full size and at 300 px wide — header, data
+  strip, lead headlines, map hotspots and chart titles stay legible;
+  no garbled text anywhere.
 - **Determinism**: draw script 2× identical sha256; `main.ts` 2× identical.
 
 ## The 39 stories (all dated 24 November 2026)
 
 ### Leads
 1. **NORTH AMERICA · MARKETS — Huang is back, Nvidia soars 36.6%.**
-   Board reinstates Jensen Huang as chief executive; Wall Street rebounds
+   Board reinstates Huang as chief executive; Wall Street rebounds
    as the AI rout reverses. (Go Herald Now, 24 Nov)
 2. **EUROPE · UKRAINE — Odesa dark and cold after Russian strikes.**
    Strikes knock out power, heat and water across the Black Sea port city.
@@ -109,7 +113,7 @@ magic bytes). No network at run time.
 - **Friday's falls, 20 Nov** (The Sun Report): Taiwan −6.7%, S. Korea −5.2%,
   Nikkei −5.0%, Shanghai −2.1%, ASX −1.6% — the rout Huang's return reverses.
 - **Tremors in the last 24 hours, magnitude** (Liveuamap): Vanuatu 6.5,
-  Timor-Leste 5.4, Ürümqi 5.1, Kuqa 4.9, Palau 4.8, Bitung 4.7.
+  Timor-Leste 5.4, Urumqi 5.1, Kuqa 4.9, Palau 4.8, Bitung 4.7.
 
 ## Data strip
 

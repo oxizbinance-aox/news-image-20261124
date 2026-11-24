@@ -1,1 +1,1 @@
-{"description":"Sum up Tuesday 24 November 2026's world news in one image — 39 stories, 9 regions.","engines":{"node":">=22"},"license":"MIT","name":"news-image-20261124","private":true,"scripts":{"render":"python3 draw_news24.py","start":"node main.ts"},"type":"module","version":"1.0.0"}
+{"description":"Tuesday 24 November 2026 in one page — 39 stories, 9 regions","name":"news-image-20261124","private":true,"type":"module","version":"2.0.0"}
